@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookClassLib", "BookClassLib\BookClassLib.csproj", "{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "HierarchyTesting\Testing.csproj", "{40C3E9C5-10DB-4182-A609-7CCD108E09B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A} = {3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}
+		{5DECE120-D802-4D10-9D6B-8D37386BE227} = {5DECE120-D802-4D10-9D6B-8D37386BE227}
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0} = {6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}
+		{6F366C79-3EFE-4085-857C-51B87B6D9114} = {6F366C79-3EFE-4085-857C-51B87B6D9114}
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732} = {AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}
+		{DB945F2F-9E11-4022-8A01-2575D19FED39} = {DB945F2F-9E11-4022-8A01-2575D19FED39}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureClassLib", "FigureClassLib\FigureClassLib.csproj", "{6F366C79-3EFE-4085-857C-51B87B6D9114}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonClassLib", "PersonClassLib\PersonClassLib.csproj", "{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentClassLib", "StudentClassLib\StudentClassLib.csproj", "{5DECE120-D802-4D10-9D6B-8D37386BE227}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0} = {6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherClassLib", "TeacherClassLib\TeacherClassLib.csproj", "{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DECE120-D802-4D10-9D6B-8D37386BE227} = {5DECE120-D802-4D10-9D6B-8D37386BE227}
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0} = {6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentWithAdvisorClassLib", "StudentWithAdvisorClassLib\StudentWithAdvisorClassLib.csproj", "{DB945F2F-9E11-4022-8A01-2575D19FED39}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DECE120-D802-4D10-9D6B-8D37386BE227} = {5DECE120-D802-4D10-9D6B-8D37386BE227}
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732} = {AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD8055E-3EEA-4013-ADA6-F32AD9E7363A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C3E9C5-10DB-4182-A609-7CCD108E09B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C3E9C5-10DB-4182-A609-7CCD108E09B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C3E9C5-10DB-4182-A609-7CCD108E09B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C3E9C5-10DB-4182-A609-7CCD108E09B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F366C79-3EFE-4085-857C-51B87B6D9114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F366C79-3EFE-4085-857C-51B87B6D9114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F366C79-3EFE-4085-857C-51B87B6D9114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F366C79-3EFE-4085-857C-51B87B6D9114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB7571A-C7E6-4F7B-8526-D3C0AED1F5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DECE120-D802-4D10-9D6B-8D37386BE227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DECE120-D802-4D10-9D6B-8D37386BE227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DECE120-D802-4D10-9D6B-8D37386BE227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DECE120-D802-4D10-9D6B-8D37386BE227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3D4BE1-A05F-41AD-ADC0-D726D8A1C732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB945F2F-9E11-4022-8A01-2575D19FED39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB945F2F-9E11-4022-8A01-2575D19FED39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB945F2F-9E11-4022-8A01-2575D19FED39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB945F2F-9E11-4022-8A01-2575D19FED39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A0BB654-673A-4367-AF18-0A491F7B2489}
+	EndGlobalSection
+EndGlobal
